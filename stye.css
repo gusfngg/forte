@@ -1,0 +1,33 @@
+
+body {
+    font-size: 30px;
+    font-family: sans-serif;
+
+    background: #ebebeb;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#app p {
+    margin-top: -10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+}
+
+button {
+    background-color: #496e68;
+    border: none;
+    border-radius: 5px;
+    color: #ebebeb;
+    padding-block: 10px;
+    padding-inline: 20px;
+
+    cursor: pointer;
+}
